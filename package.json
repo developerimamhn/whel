@@ -22,7 +22,7 @@
     "sharp": "^0.34.1",
     "slick-carousel": "^1.8.1",
     "slider": "^1.0.4",
-    "swiper": "^11.2.6"
+    "swiper": "^12.0.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

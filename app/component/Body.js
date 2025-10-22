@@ -1,12 +1,12 @@
 import React from 'react';
 import Pageone from './Pageone'; 
 import Pagetwo from './Pagetwo';
-import Pagethree from './Pagethree';
-import Pagefore from './Pagefore';
+// import Pagethree from './Pagethree';
+// import Pagefore from './Pagefore';
 // import Pageeight from './Pageeight';
-import Footer from './Footer';
-import Pagefive from './Pagefive';
-import Pagesix from './Pagesix';
+// import Footer from './Footer';
+// import Pagefive from './Pagefive';
+// import Pagesix from './Pagesix';
 // import Pageseven from './Pageseven';
 
 
@@ -15,13 +15,13 @@ const Body = () => {
         <div className='relative overflow-hidden'>
             <Pageone/>
             <Pagetwo/>
-            <Pagethree/>
+            {/* <Pagethree/>
             <Pagefore/>
-            <Pagefive/>
+            <Pagefive/> */}
             {/* <Pageeight/> */}
-            <Pagesix/>
+            {/* <Pagesix/> */}
             {/* <Pageseven/> */}
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 };

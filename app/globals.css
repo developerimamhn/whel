@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #15161b;
-  --foreground: #15161b;
+  --background: #fff;
+  --foreground: #fff;
 }
 
 a {
@@ -18,8 +18,8 @@ a {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #010214;
-    --foreground: #010214;
+    --background: #fff;
+    --foreground: #fff;
   }
 }
 
@@ -31,37 +31,37 @@ body {
 }
 
 @font-face {
-  font-family: "MD Primer Test";
-  src: url("./font/MDPrimerTest-Medium.otf") format("truetype");
+  font-family: "Almarai";
+  src: url("./font/Almarai-Light.ttf") format("truetype");
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
 }
 @font-face {
-  font-family: "MD Primer Test";
-  src: url("./font/MDPrimerTest-Regular.otf") format("truetype");
+  font-family: "Almarai";
+  src: url("./font/Almarai-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "MD Primer Test";
-  src: url("./font/MDPrimerTest-Black.otf") format("truetype");
-  font-style: normal;
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: "MD Primer Test";
-  src: url("./font/MDPrimerTest-Bold.otf") format("truetype");
+  font-family: "Almarai";
+  src: url("./font/Almarai-Bold.ttf") format("truetype");
   font-style: normal;
   font-weight: 700;
 }
 
 @font-face {
-  font-family: "MD Primer Test";
-  src: url("./font/MDPrimerTest-Semibold.otf") format("truetype");
+  font-family: "Almarai";
+  src: url("./font/Almarai-ExtraBold.ttf") format("truetype");
   font-style: normal;
-  font-weight: 600;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("./font/NeueMontreal-Regular.otf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
@@ -81,6 +81,148 @@ body {
 }
 
 @layer utilities {
+  .weclean{
+    
+  }
+  .developgrid{
+    color: #000;
+    font-family: "Neue Montreal";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 114.286% */
+  }
+  .easilyinstegrate{
+    color: #666;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.18px;
+  }
+  .instagerbuton{
+    color: #111;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: -0.09px;
+  }
+  .gradiensaa{
+    border-radius: 16px;
+    background: #FFF;
+  }
+  .parausainsa{
+    color: #666;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.18px;
+  }
+  .seehowparduu{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.857%; /*  */
+    letter-spacing: -0.09px;
+    border-radius: 50px;
+    background: #111;
+    transition: 0.3s;
+  }
+    .seehowparduu:hover{
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 142.857%; /*  */
+    letter-spacing: -0.09px;
+    border-radius: 50px;
+    background: #222;
+  }
+  .tradines{
+    color: #000;
+    font-family: "Neue Montreal";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.167%; /*  */
+  }
+  .rightmouse {
+  position: relative;
+  animation-name: myAnimation;
+  animation-duration: 4s;
+}
+
+@keyframes myAnimation {
+  0%   {top:400px; transform: rotate(50deg);}
+  100% {top:0px; transform: rotate(0deg);}
+}
+
+.transitionh2 {
+  position: relative;
+  opacity: 0;    
+  margin-left: -300px;
+  animation-name: myAnimations;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes myAnimations {
+  0%   { margin-left: -300px; opacity: 0.4; }
+  100% { margin-left: 0px; opacity: 1; }
+}
+
+.transitionh3 {
+  position: relative;
+  opacity: 0;                 /* First 2s fully hidden */
+  margin-right: -300px;
+  animation-name: myAnimationss;
+  animation-duration: 2s;     /* Animation runs for 3s */
+  animation-delay: 2s;        /* Starts after 2s */
+  animation-fill-mode: forwards; /* Stay at final position */
+}
+
+@keyframes myAnimationss {
+  0%   { margin-right: -300px; opacity: 0.4; }
+  100% { margin-right: 0px; opacity: 1; }
+}
+
+  .earniusdsa{
+    color: #999;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 176.923%;
+    letter-spacing: -0.09px;
+  }
+  .pointapy{
+    color: #111;
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  .getstaredss{
+    color: #666 !important;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.09px;
+  }
+  .getstared{
+    border-radius: 50px;
+    background: #7433FF;
+    transition: 0.5s;
+  }
+    .getstared:hover{
+    border-radius: 50px;
+    background: #8248ff;
+  }
   .privacypolicysfse {
     text-align: center;
     leading-trim: both;
@@ -322,15 +464,13 @@ body {
     font-weight: 500;
     line-height: 18.4px; /* 115% */
   }
-  .bacxkgaAS {
-  }
   .bitstartp {
-    color: #fff;
-    text-align: center;
+    color: #111;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 30px */
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.18px;
   }
 
   .bitstartpsss {
@@ -340,18 +480,11 @@ body {
     line-height: 150%; /* 30px */
   }
   .tradines {
-    color: #fff;
-    text-align: center;
-    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.35), 0 4px 4px rgba(0, 0, 0, 0.15),
-      0 6px 16px rgba(0, 0, 0, 0.15);
-    font-family: "MD Primer Test";
+    color: #000;
+    font-family: 'Almarai';
     font-style: normal;
-    font-weight: 600;
-    line-height: 110%; /* 70.4px */
-    background: linear-gradient(180deg, #fff 50%, #c6b4fd 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-weight: 400;
+    line-height: 120%;
   }
   .divisiolast {
     color: #f3e2ff;
@@ -359,7 +492,7 @@ body {
     font-family: "Segoe UI";
     font-style: normal;
     font-weight: 500;
-    line-height: 170%; /* 47.6px */
+    line-height: 170%;
   }
   .fontent {
     font-weight: 800 !important;
@@ -1360,14 +1493,14 @@ body {
   }
 
   .header.scrolled {
-    background: #15161b7e;
+    background: #ffffff36;
     /* border-image-source: linear-gradient(90deg, #010214 0%, rgba(55, 57, 82, 0.6) 50.16%, #010214 100%); */
     /* border-bottom-width: 0.78px; */
     /* border-style: solid; */
     /* background: linear-gradient(90deg, #010214ec 0%, rgba(55, 57, 82, 0.6) 50.16%, #010214e5 100%); */
     opacity: 10%;
     transition: 0.5s;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
   }
 
   /* Slide-up animation */
@@ -1401,16 +1534,16 @@ body {
     line-height: 100%;
   }
   .Link-manu-bar {
-    color: #fff;
+    color: #111;
     text-align: center;
-    font-family: "Inter";
-    font-size: 14px;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    line-height: 19.6px; /* 140% */
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.14px;
   }
   .Link-manu-bar {
-    @apply text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] duration-300 text-[#fff] hover:text-[#fff90];
+    @apply text-[10px] sm:text-[11px] md:text-[12px] lg:text-[13px] xl:text-[14px] duration-300 text-[#111] hover:text-[#1f1e1e];
   }
   .backgroundheader {
     background: linear-gradient(180deg, #141024 0%, #070510 50%);
